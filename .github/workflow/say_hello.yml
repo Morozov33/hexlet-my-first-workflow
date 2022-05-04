@@ -1,0 +1,8 @@
+# file: .github/workflow/say_hello.yml
+name: say-hello
+on: push
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      run: make say-hello
